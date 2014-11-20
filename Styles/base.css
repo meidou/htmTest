@@ -1,0 +1,48 @@
+﻿html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, address, big, cite, code, del, em, font, img, ins, small, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+
+body {
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+    color: #666;
+    background: #fff;
+    _background-image: url(about:blank);
+    _background-attachment: fixed;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+.m, .sm {
+    margin-bottom: 10px;
+}
+
+.m, .mt, .mc, .mb, .sm, .smt, .smc, .smb {
+    overflow: hidden;
+}
+
+
+.mt, .smt {
+    cursor: default;
+}
+
+.tab li, .tab a, .tab-item {
+    float: left;
+    text-align: center;
+}
+
+em {
+    font-style: normal;
+}
+
+.hide {
+    display: none;
+}

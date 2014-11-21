@@ -80,13 +80,13 @@ a:link, a:visited {
         top: 20px;
         width: 17px;
         z-index: 2;
-        cursor:pointer;
+        cursor: pointer;
     }
 
     #filter .up b, #filter .down b, #store-selector .close, #store-selector .text b, #filter .instock b, #filter .type b, #filter .activity b {
-    background-image: url("../images/20130603A.png");
-    background-repeat: no-repeat;
-}
+        background-image: url("../images/20130603A.png");
+        background-repeat: no-repeat;
+    }
 
 
 .JD-stock {
@@ -122,6 +122,20 @@ a:link, a:visited {
             text-decoration: none;
         }
 
+        .JD-stock .tab li {
+            float: left;
+            clear: none;
+            height: 23px;
+            padding: 1px 1px 0;
+            border: 1px solid #ddd;
+            border-bottom: 0;
+            margin-right: 3px;
+            background-color: #fff;
+            line-height: 22px;
+            text-decoration: none;
+        }
+
+
         .JD-stock .tab .curr {
             -moz-border-bottom-colors: none;
             -moz-border-left-colors: none;
@@ -133,6 +147,13 @@ a:link, a:visited {
             border-width: 2px 2px 0;
             height: 25px;
             padding: 0;
+        }
+
+        .JD-stock .tab .curr {
+            height: 25px;
+            padding: 0;
+            border: 2px solid #edd28b;
+            border-bottom: 0;
         }
 
         .JD-stock .tab a {

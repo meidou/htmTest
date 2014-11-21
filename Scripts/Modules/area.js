@@ -53,7 +53,7 @@
 
         },
         Init: function () {
-            $("#store-selector").mouseover(function () { $(this).addClass("hover") });
+            $(".txtArea").mouseover(function () { $(this).parent().addClass("hover") });
             $(".areaClose").click(function () { $("#store-selector").removeClass("hover") });
             for (var id in iplocation) { areadata.push({ id: id, name: iplocation[id].name }); }
             $(".cprovince .area-list").html(mustache.to_html(temp.areatemp, { list: areadata }));

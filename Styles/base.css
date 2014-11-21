@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+h2, h3 {
+    font-size: 14px;
+}
+
 a {
     color: #666;
     text-decoration: none;

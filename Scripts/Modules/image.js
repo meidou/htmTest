@@ -5,8 +5,8 @@
     var Action = {
 
         Init: function () {
-
-
+            $(".spZoom").width($(".divOverlay").width() * $(".smallImg").width() / $(".baseImg").width());
+            $(".spZoom").height($(".divOverlay").height() * $(".smallImg").height() / $(".baseImg").height());
             $(".divOverlay").offset({ top: $(".smallImg").offset().top, left: $(".smallImg").offset().left + $(".smallImg").width() + 10 });
             $(".smallImg").hover(function () {
                 $(".spZoom").show();

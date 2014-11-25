@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style>
+        .box {
+            /*非IE的主流浏览器识别的垂直居中的方法*/
+            display: table-cell;
+            vertical-align: middle;
+            /*设置水平居中*/
+            text-align: center;
+            /* 针对IE的Hack */
+            *display: block;
+            *font-size: 250px; /*约为高度的0.873，200*0.873 约为175*/
+            *font-family: Arial; /*防止非utf-8引起的hack失效问题，如gbk编码*/
+            width: 1000px;
+            height: 300px;
+            border: 1px solid #eee;
+        }
+
+
+            .box img {
+                /*设置图片垂直居中*/
+                /*top: -50%;
+                left: -50%;
+                position: static;
+                +position:relative;*/
+                width: 500px;
+                height: 150px;
+                vertical-align: middle;
+            }
+
+        .imgbox2 {
+            overflow: hidden;
+            position: relative;
+            display: table-cell;
+            text-align: center;
+            vertical-align: middle;
+            width: 1000px;
+            height: 300px;
+            border: 1px #ddd solid;
+        }
+
+            .imgbox2 p {
+                position: static;
+                +position:absolute;
+                top: 50%;
+            }
+
+            .imgbox2 img {
+                position: static;
+                +position:relative;
+                top: -50%;
+                left: -50%;
+                width: 500px;
+                height: 150px;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <img src="http://static.job910.com/companyimg/banner/24185/24185_2ec6b0c5cdc349e292504ee0ec8a3099.jpg" />
+    </div>
+    <br />
+    <div class="imgbox2">
+        <p>
+            <img src="http://static.job910.com/companyimg/banner/24185/24185_2ec6b0c5cdc349e292504ee0ec8a3099.jpg" />
+        </p>
+    </div>
+</body>
+</html>

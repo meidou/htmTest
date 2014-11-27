@@ -1,4 +1,5 @@
 ﻿define(function (require, exports) {
+    var $ = require("jquery");
     var mustache = require("mustache");
     var areadata = [];
     var iplocation = {

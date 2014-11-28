@@ -7,6 +7,7 @@ var alias = {
     'backbone': '/scripts/libs/backbone/1.0.0/backbone',
     'mustache': '/scripts/libs/mustache/0.8.1/mustache',
     'tweenmax': '/scripts/libs/GreenSock/1.13.1/TweenMax.min',
+    "iscroll": "/scripts/libs/iscroll/4.2.5/iscroll",
     //modules
     'common': '/scripts/modules/common',
     "temp": '/Scripts/modules/Temp',
